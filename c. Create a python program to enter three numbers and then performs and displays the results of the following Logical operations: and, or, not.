@@ -1,0 +1,10 @@
+
+a = int(input(&quot;Enter the First number: &quot;))
+b = int(input(&quot;Enter the Second number: &quot;))
+c = int(input(&quot;Enter the Third number: &quot;))
+# Performing logical operations
+print(&quot;\nLogical Operations Results:&quot;)
+print((a &gt; b) and (b &gt; c))
+print((a &gt; b) or (b &gt; c))
+print(not(a &gt; b))
+print(not(b &gt; c))
